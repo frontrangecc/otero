@@ -1,0 +1,927 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn how to match ARIA attributes to their roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-DIV",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,18,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.elementor-widget-container > div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-9151",
+            "boundingRect": {
+              "top": 3021,
+              "bottom": 3059,
+              "left": 26,
+              "right": 386,
+              "width": 360,
+              "height": 38
+            },
+            "snippet": "<div id=\"elementor-tab-title-9151\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-9151\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+            "nodeLabel": "Accordion #1",
+            "explanation": "Fix all of the following:\n  ARIA attribute is not allowed: aria-selected=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-DIV",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,19,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.elementor-widget-container > div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-9221",
+            "boundingRect": {
+              "top": 3203,
+              "bottom": 3241,
+              "left": 26,
+              "right": 386,
+              "width": 360,
+              "height": 38
+            },
+            "snippet": "<div id=\"elementor-tab-title-9221\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-9221\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+            "nodeLabel": "Accordion #1",
+            "explanation": "Fix all of the following:\n  ARIA attribute is not allowed: aria-selected=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-DIV",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,20,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.elementor-widget-container > div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-2211",
+            "boundingRect": {
+              "top": 3384,
+              "bottom": 3422,
+              "left": 26,
+              "right": 386,
+              "width": 360,
+              "height": 38
+            },
+            "snippet": "<div id=\"elementor-tab-title-2211\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-2211\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+            "nodeLabel": "Accordion #1",
+            "explanation": "Fix all of the following:\n  ARIA attribute is not allowed: aria-selected=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more about roles and required children elements](https://dequeuniversity.com/rules/axe/4.10/aria-required-children).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-DIV",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,23,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-tabs > div.elementor-tabs-content-wrapper",
+            "boundingRect": {
+              "top": 3914,
+              "bottom": 4493,
+              "left": 25,
+              "right": 387,
+              "width": 362,
+              "height": 579
+            },
+            "snippet": "<div class=\"elementor-tabs-content-wrapper\" role=\"tablist\" aria-orientation=\"vertical\">",
+            "nodeLabel": "Tab #1\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod…",
+            "explanation": "Fix any of the following:\n  Element has children which are not allowed: [role=tabpanel]"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,23,DIV,0,DIV,0,DIV,1,DIV,1,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-tabs > div.elementor-tabs-content-wrapper > div#elementor-tab-content-1021",
+                  "boundingRect": {
+                    "top": 3958,
+                    "bottom": 4449,
+                    "left": 25,
+                    "right": 387,
+                    "width": 362,
+                    "height": 491
+                  },
+                  "snippet": "<div id=\"elementor-tab-content-1021\" class=\"elementor-tab-content elementor-clearfix elementor-active\" data-tab=\"1\" role=\"tabpanel\" aria-labelledby=\"elementor-tab-title-1021\" tabindex=\"0\" style=\"display: block;\">",
+                  "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-SPAN",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,32,DIV,0,DIV,0,DIV,0,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-title",
+            "boundingRect": {
+              "top": 5722,
+              "bottom": 5744,
+              "left": 40,
+              "right": 377,
+              "width": 337,
+              "height": 22
+            },
+            "snippet": "<span class=\"elementor-alert-title\">",
+            "nodeLabel": "This is an Alert",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #5b5b5b, background color: #a7d4ee, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,32,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 5712,
+                    "bottom": 5799,
+                    "left": 25,
+                    "right": 387,
+                    "width": 362,
+                    "height": 87
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "This is an Alert\nI am a description. Click the edit button to change this text.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-SPAN",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,32,DIV,0,DIV,0,DIV,1,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-description",
+            "boundingRect": {
+              "top": 5748,
+              "bottom": 5785,
+              "left": 40,
+              "right": 350,
+              "width": 310,
+              "height": 37
+            },
+            "snippet": "<span class=\"elementor-alert-description\">",
+            "nodeLabel": "I am a description. Click the edit button to change this text.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #5b5b5b, background color: #a7d4ee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,32,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 5712,
+                    "bottom": 5799,
+                    "left": 25,
+                    "right": 387,
+                    "width": 362,
+                    "height": 87
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "This is an Alert\nI am a description. Click the edit button to change this text.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-SPAN",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,33,DIV,0,DIV,0,DIV,0,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-title",
+            "boundingRect": {
+              "top": 5829,
+              "bottom": 5852,
+              "left": 40,
+              "right": 377,
+              "width": 337,
+              "height": 22
+            },
+            "snippet": "<span class=\"elementor-alert-title\">",
+            "nodeLabel": "This is an Alert",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.93 (foreground color: #5b5b5b, background color: #c5c5c5, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,33,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 5819,
+                    "bottom": 5906,
+                    "left": 25,
+                    "right": 387,
+                    "width": 362,
+                    "height": 87
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "This is an Alert\nI am a description. Click the edit button to change this text.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-SPAN",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,33,DIV,0,DIV,0,DIV,1,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-description",
+            "boundingRect": {
+              "top": 5855,
+              "bottom": 5892,
+              "left": 40,
+              "right": 350,
+              "width": 310,
+              "height": 37
+            },
+            "snippet": "<span class=\"elementor-alert-description\">",
+            "nodeLabel": "I am a description. Click the edit button to change this text.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.93 (foreground color: #5b5b5b, background color: #c5c5c5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,33,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 5819,
+                    "bottom": 5906,
+                    "left": 25,
+                    "right": 387,
+                    "width": 362,
+                    "height": 87
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "This is an Alert\nI am a description. Click the edit button to change this text.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-SPAN",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,35,DIV,0,DIV,0,DIV,0,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-title",
+            "boundingRect": {
+              "top": 6149,
+              "bottom": 6172,
+              "left": 40,
+              "right": 377,
+              "width": 337,
+              "height": 22
+            },
+            "snippet": "<span class=\"elementor-alert-title\">",
+            "nodeLabel": "This is an Alert",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,35,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 6139,
+                    "bottom": 6227,
+                    "left": 25,
+                    "right": 387,
+                    "width": 362,
+                    "height": 87
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "This is an Alert\nI am a description. Click the edit button to change this text."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-SPAN",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-description",
+            "boundingRect": {
+              "top": 6175,
+              "bottom": 6213,
+              "left": 40,
+              "right": 350,
+              "width": 310,
+              "height": 37
+            },
+            "snippet": "<span class=\"elementor-alert-description\">",
+            "nodeLabel": "I am a description. Click the edit button to change this text.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,35,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 6139,
+                    "bottom": 6227,
+                    "left": 25,
+                    "right": 387,
+                    "width": 362,
+                    "height": 87
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "This is an Alert\nI am a description. Click the edit button to change this text."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-H5",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H5",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.card__details > h5",
+            "boundingRect": {
+              "top": 6802,
+              "bottom": 6820,
+              "left": 50,
+              "right": 362,
+              "width": 312,
+              "height": 18
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Program Information",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-UL",
+            "path": "1,HTML,1,BODY,26,DIV,0,DIV,1,NAV,0,UL",
+            "selector": "div.mobile-menu-wrapper > div.mobile-menu-inner > nav.mobile-menu-container > ul.nav",
+            "boundingRect": {
+              "top": 75,
+              "bottom": 355,
+              "left": -295,
+              "right": -25,
+              "width": 270,
+              "height": 280
+            },
+            "snippet": "<ul class=\"nav navbar-nav\">",
+            "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: div"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-DIV",
+                  "path": "1,HTML,1,BODY,26,DIV,0,DIV,1,NAV,0,UL,0,DIV",
+                  "selector": "div.mobile-menu-inner > nav.mobile-menu-container > ul.nav > div#mega-menu-wrap-primary",
+                  "boundingRect": {
+                    "top": 75,
+                    "bottom": 355,
+                    "left": -295,
+                    "right": -25,
+                    "width": 270,
+                    "height": 280
+                  },
+                  "snippet": "<div id=\"mega-menu-wrap-primary\" class=\"mega-menu-wrap\">",
+                  "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-LI",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,LI",
+            "selector": "div.navigation > div.tm-table > nav.header-top-menu > li#text-1210000",
+            "boundingRect": {
+              "top": 121,
+              "bottom": 165,
+              "left": 312,
+              "right": 352,
+              "width": 40,
+              "height": 44
+            },
+            "snippet": "<li id=\"text-1210000\" class=\"widget widget_text\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more about the `tabindex` attribute](https://dequeuniversity.com/rules/axe/4.10/tabindex).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,1,A",
+            "selector": "body#thim-body > a#pojo-a11y-skip-content",
+            "boundingRect": {
+              "top": -14000,
+              "bottom": -13978,
+              "left": 0,
+              "right": 93,
+              "width": 93,
+              "height": 22
+            },
+            "snippet": "<a id=\"pojo-a11y-skip-content\" class=\"pojo-skip-link pojo-skip-content\" tabindex=\"1\" accesskey=\"s\" href=\"#main-content\" role=\"link\">",
+            "nodeLabel": "Skip to content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,18,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,A",
+            "selector": "div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-9151 > a.elementor-accordion-title",
+            "boundingRect": {
+              "top": 3032,
+              "bottom": 3048,
+              "left": 41,
+              "right": 125,
+              "width": 84,
+              "height": 17
+            },
+            "snippet": "<a class=\"elementor-accordion-title\" tabindex=\"0\" role=\"link\">",
+            "nodeLabel": "Accordion #1",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (84.1px by 16.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-0-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,18,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-9151",
+                  "boundingRect": {
+                    "top": 3021,
+                    "bottom": 3059,
+                    "left": 26,
+                    "right": 386,
+                    "width": 360,
+                    "height": 38
+                  },
+                  "snippet": "<div id=\"elementor-tab-title-9151\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-9151\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+                  "nodeLabel": "Accordion #1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,19,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,A",
+            "selector": "div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-9221 > a.elementor-accordion-title",
+            "boundingRect": {
+              "top": 3213,
+              "bottom": 3230,
+              "left": 41,
+              "right": 125,
+              "width": 84,
+              "height": 17
+            },
+            "snippet": "<a class=\"elementor-accordion-title\" tabindex=\"0\" role=\"link\">",
+            "nodeLabel": "Accordion #1",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (84.1px by 16.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-1-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,19,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-9221",
+                  "boundingRect": {
+                    "top": 3203,
+                    "bottom": 3241,
+                    "left": 26,
+                    "right": 386,
+                    "width": 360,
+                    "height": 38
+                  },
+                  "snippet": "<div id=\"elementor-tab-title-9221\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-9221\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+                  "nodeLabel": "Accordion #1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,20,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,A",
+            "selector": "div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-2211 > a.elementor-accordion-title",
+            "boundingRect": {
+              "top": 3394,
+              "bottom": 3411,
+              "left": 41,
+              "right": 125,
+              "width": 84,
+              "height": 17
+            },
+            "snippet": "<a class=\"elementor-accordion-title\" tabindex=\"0\" role=\"link\">",
+            "nodeLabel": "Accordion #1",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (84.1px by 16.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,0,SECTION,1,DIV,0,DIV,0,MAIN,0,ARTICLE,0,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,20,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-accordion > div.elementor-accordion-item > div#elementor-tab-title-2211",
+                  "boundingRect": {
+                    "top": 3384,
+                    "bottom": 3422,
+                    "left": 26,
+                    "right": 386,
+                    "width": 360,
+                    "height": 38
+                  },
+                  "snippet": "<div id=\"elementor-tab-title-2211\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-2211\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+                  "nodeLabel": "Accordion #1"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 10742,
+              "bottom": 10772,
+              "left": 10,
+              "right": 402,
+              "width": 392,
+              "height": 30
+            },
+            "snippet": "<a href=\"tel:7193846800\" aria-label=\"Contact phone number\" role=\"link\">",
+            "nodeLabel": "(719) 384-6800",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,27,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 10802,
+              "bottom": 10832,
+              "left": 10,
+              "right": 402,
+              "width": 392,
+              "height": 30
+            },
+            "snippet": "<a href=\"mailto:otero-information@otero.edu\" target=\"_blank\" aria-label=\"General email address for inquiries\" role=\"link\">",
+            "nodeLabel": "otero-information@otero.edu",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
