@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "/",
+    "score": 0.75,
+    "performance": 0.46,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/?thim_ekits_menu=mega-item-13747",
+    "score": 0.78,
+    "performance": 0.63,
+    "accessibility": 0.94,
+    "best-practices": 0.64,
+    "seo": 0.92
+  },
+  {
+    "path": "/?thim_ekits_menu=mega-item-15321",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.94,
+    "best-practices": 0.64,
+    "seo": 0.92
+  },
+  {
+    "path": "/?thim_elementor_kit=footer",
+    "score": 0.74,
+    "performance": 0.51,
+    "accessibility": 0.83,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/?thim_elementor_kit=header-right",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/?thim_elementor_kit=social-menu-right",
+    "score": 0.75,
+    "performance": 0.49,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/?thim_elementor_kit=topbar",
+    "score": 0.75,
+    "performance": 0.47,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/3-column-content-with-no-header-image/",
+    "score": 0.7,
+    "performance": 0.4,
+    "accessibility": 0.82,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/accreditation/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-council/",
+    "score": 0.8,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/campus-connections-committee/",
+    "score": 0.78,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/campus-map-directions/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/campus-media/",
+    "score": 0.71,
+    "performance": 0.35,
+    "accessibility": 0.79,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/careers/",
+    "score": 0.77,
+    "performance": 0.52,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/commencement/",
+    "score": 0.77,
+    "performance": 0.56,
+    "accessibility": 0.82,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/academic-affairs-staff/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/aim-program-staff/",
+    "score": 0.81,
+    "performance": 0.63,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/bueno-hep-ged-staff/",
+    "score": 0.77,
+    "performance": 0.46,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/facilities-maintenance-staff/",
+    "score": 0.77,
+    "performance": 0.47,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/information-technology-staff/",
+    "score": 0.77,
+    "performance": 0.45,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/nursing-health-professions-faculty/",
+    "score": 0.81,
+    "performance": 0.61,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/skilled-trades-services-faculty/",
+    "score": 0.78,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/directory/student-affairs-staff/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/institutional-data/equity-in-athletics-report/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/policies-procedures/privacy-policy/",
+    "score": 0.78,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/policies-procedures/title-ix-sexual-misconduct/",
+    "score": 0.77,
+    "performance": 0.56,
+    "accessibility": 0.8,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/about/policies-procedures/vaccination-policies/",
+    "score": 0.76,
+    "performance": 0.44,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.89,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/alternative-credit-project/",
+    "score": 0.74,
+    "performance": 0.43,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/bridge-to-bachelors/",
+    "score": 0.79,
+    "performance": 0.54,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/",
+    "score": 0.75,
+    "performance": 0.48,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/autocad-certification-training-course/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/certified-paralegal/",
+    "score": 0.79,
+    "performance": 0.53,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/clinical-dental-assistant-training/",
+    "score": 0.79,
+    "performance": 0.53,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/cmaa-medical-billing-coding/",
+    "score": 0.78,
+    "performance": 0.5,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/comptia-certification-training-itf-a-network-and-security/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/comptia-certification-training/",
+    "score": 0.79,
+    "performance": 0.53,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/mortgage-loan-officer-training/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/career-workforce-training/online-veterinary-assistant-training/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/course-schedules/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/",
+    "score": 0.77,
+    "performance": 0.47,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/art-history-aa/",
+    "score": 0.79,
+    "performance": 0.55,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/barbering/",
+    "score": 0.8,
+    "performance": 0.61,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/communication-aa/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/elementary-teacher-education-aa/",
+    "score": 0.76,
+    "performance": 0.43,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/english-aa/",
+    "score": 0.77,
+    "performance": 0.5,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/geology-as/",
+    "score": 0.77,
+    "performance": 0.5,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/law-enforcement-training-academy/leta-application-checklist/",
+    "score": 0.76,
+    "performance": 0.47,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/law-enforcement-training-academy/leta-courses/",
+    "score": 0.79,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/mathematics-as/",
+    "score": 0.8,
+    "performance": 0.61,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/degrees-certificates/welding/",
+    "score": 0.78,
+    "performance": 0.54,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/hybrid-courses/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/short-courses-fundamentals/",
+    "score": 0.74,
+    "performance": 0.44,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/academics-programs/transfer-agreements/",
+    "score": 0.76,
+    "performance": 0.5,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/apply/",
+    "score": 0.78,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/author/oteroeditorial/",
+    "score": 0.72,
+    "performance": 0.49,
+    "accessibility": 0.83,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/author/s01018726/",
+    "score": 0.71,
+    "performance": 0.4,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/become-a-student/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/bueno-hep/",
+    "score": 0.8,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/concurrent-enrollment/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/discovery-day/",
+    "score": 0.82,
+    "performance": 0.65,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/living-on-campus/",
+    "score": 0.76,
+    "performance": 0.47,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/living-on-campus/residence-hall-options/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/placement-testing/",
+    "score": 0.75,
+    "performance": 0.48,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/student-orientation/",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.82,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/transfer/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/become-a-student/visit-campus/",
+    "score": 0.75,
+    "performance": 0.45,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/calendar/category/meetings-and-conferences/",
+    "score": 0.7,
+    "performance": 0.44,
+    "accessibility": 0.9,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/calendar/category/public-events/",
+    "score": 0.71,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/calendar/category/student-activities-campus-life/",
+    "score": 0.69,
+    "performance": 0.39,
+    "accessibility": 0.9,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/campus-community/",
+    "score": 0.76,
+    "performance": 0.48,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/ag-gala/",
+    "score": 0.79,
+    "performance": 0.54,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/alcohol-drugs-policy/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/care-team/",
+    "score": 0.73,
+    "performance": 0.43,
+    "accessibility": 0.78,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/emergency-alert-apps/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/report-a-concern/",
+    "score": 0.77,
+    "performance": 0.47,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/report-an-incident/",
+    "score": 0.77,
+    "performance": 0.51,
+    "accessibility": 0.87,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/sexual-assault-harassment/",
+    "score": 0.77,
+    "performance": 0.54,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/smoking-tobacco-policy/",
+    "score": 0.79,
+    "performance": 0.54,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/campus-safety/weapons-on-campus/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/chinook-publication/",
+    "score": 0.79,
+    "performance": 0.59,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/",
+    "score": 0.75,
+    "performance": 0.46,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/chess-club/",
+    "score": 0.78,
+    "performance": 0.53,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/club-cosmetology/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/dance-studio/",
+    "score": 0.75,
+    "performance": 0.47,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/iro/",
+    "score": 0.78,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/otero-players/",
+    "score": 0.76,
+    "performance": 0.51,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/phi-theta-kappa/",
+    "score": 0.77,
+    "performance": 0.47,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/presidents-leadership-program/",
+    "score": 0.78,
+    "performance": 0.53,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/clubs-organizations/student-government/",
+    "score": 0.8,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/",
+    "score": 0.77,
+    "performance": 0.52,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/frost-fest/",
+    "score": 0.8,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/girls-in-the-middle/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/health-gala/",
+    "score": 0.78,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/international-food-night/",
+    "score": 0.79,
+    "performance": 0.54,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/otero-arts-festival/",
+    "score": 0.8,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/otero-arts-festival/creative-writing/",
+    "score": 0.79,
+    "performance": 0.55,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/otero-arts-festival/instrumental-and-vocal-music-showcase/",
+    "score": 0.8,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/otero-arts-festival/theatrical-competition/",
+    "score": 0.81,
+    "performance": 0.62,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/otero-arts-festival/visual-arts/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/events-registration/rattler-run/",
+    "score": 0.8,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/fitness-center/",
+    "score": 0.77,
+    "performance": 0.56,
+    "accessibility": 0.8,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/science-fair/",
+    "score": 0.79,
+    "performance": 0.53,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/stem-on-campus/",
+    "score": 0.8,
+    "performance": 0.62,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/stem-on-campus/ev-charging-station/",
+    "score": 0.77,
+    "performance": 0.54,
+    "accessibility": 0.82,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/campus-community/stem-on-campus/se-colorado-archaeological-field-program/",
+    "score": 0.76,
+    "performance": 0.47,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/",
+    "score": 0.81,
+    "performance": 0.63,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/catalog-archive/",
+    "score": 0.77,
+    "performance": 0.52,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/",
+    "score": 0.79,
+    "performance": 0.53,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/abm-agri-business-management/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/bus-business/",
+    "score": 0.79,
+    "performance": 0.53,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/cwb-computer-web-based/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/ece-early-childhood-education/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/hlt-horticulture/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/ped-physical-education/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/ram-range-management/",
+    "score": 0.81,
+    "performance": 0.62,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/course-descriptions/wst-women-gender-studies/",
+    "score": 0.77,
+    "performance": 0.46,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/barbering-certificate/",
+    "score": 0.77,
+    "performance": 0.49,
+    "accessibility": 0.89,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/construction-trades-certificate/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.89,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/cosmetology-certificates/",
+    "score": 0.8,
+    "performance": 0.64,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/law-enforcement-training-academy-certificate/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.89,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/phlebotomy-certificate/",
+    "score": 0.79,
+    "performance": 0.56,
+    "accessibility": 0.89,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/physics-as/",
+    "score": 0.77,
+    "performance": 0.51,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/psychology-aa-as/",
+    "score": 0.77,
+    "performance": 0.5,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/degrees-certificates/t-prep-secondary-science-licensure/",
+    "score": 0.77,
+    "performance": 0.46,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/general-information-catalog/",
+    "score": 0.8,
+    "performance": 0.57,
+    "accessibility": 0.91,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/guidelines-for-degree-programs-certificates/",
+    "score": 0.8,
+    "performance": 0.58,
+    "accessibility": 0.89,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/mission-statement-strategic-plan/",
+    "score": 0.79,
+    "performance": 0.54,
+    "accessibility": 0.89,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/staff-organization/",
+    "score": 0.8,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/catalog/tuition-fees-catalog/",
+    "score": 0.78,
+    "performance": 0.5,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/category/rattler-nation-newsroom/",
+    "score": 0.71,
+    "performance": 0.46,
+    "accessibility": 0.83,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-05-21/",
+    "score": 0.65,
+    "performance": 0.4,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-05-28/",
+    "score": 0.7,
+    "performance": 0.62,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-06-04/",
+    "score": 0.7,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-07-16/",
+    "score": 0.65,
+    "performance": 0.41,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-07-30/",
+    "score": 0.69,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-10-01/",
+    "score": 0.69,
+    "performance": 0.57,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-11-19/",
+    "score": 0.67,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/fca-student-meeting/2025-12-03/",
+    "score": 0.66,
+    "performance": 0.46,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/international-lunch-learn-3/2025-05-07/",
+    "score": 0.66,
+    "performance": 0.44,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/otero-players-fall-production/2025-11-13/",
+    "score": 0.7,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/otero-players-fall-production/2025-11-14/",
+    "score": 0.65,
+    "performance": 0.4,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/otero-players-fall-production/2025-11-15/",
+    "score": 0.7,
+    "performance": 0.62,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/otero-players-fall-production/2025-11-16/",
+    "score": 0.68,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-05-20/",
+    "score": 0.69,
+    "performance": 0.56,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-06-17/",
+    "score": 0.66,
+    "performance": 0.44,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-07-15/",
+    "score": 0.68,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-08-19/",
+    "score": 0.71,
+    "performance": 0.64,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-09-16/",
+    "score": 0.69,
+    "performance": 0.57,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-10-21/",
+    "score": 0.68,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-11-18/",
+    "score": 0.66,
+    "performance": 0.44,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/event/yeehaw-taskforce-meeting/2025-12-16/",
+    "score": 0.66,
+    "performance": 0.45,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.58
+  },
+  {
+    "path": "/international/",
+    "score": 0.78,
+    "performance": 0.52,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/international/arrival-transportation/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/international/checklist/",
+    "score": 0.76,
+    "performance": 0.5,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/international/current-international-students/",
+    "score": 0.77,
+    "performance": 0.52,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/international/future-international-students/",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/international/tuition-fees/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/international/work-authorization/",
+    "score": 0.79,
+    "performance": 0.59,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/international/world-to-otero/",
+    "score": 0.8,
+    "performance": 0.57,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/newsroom/",
+    "score": 0.76,
+    "performance": 0.53,
+    "accessibility": 0.8,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/organizer/cedric-quintana/",
+    "score": 0.7,
+    "performance": 0.43,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/organizer/cynthia-nieb/",
+    "score": 0.7,
+    "performance": 0.43,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/organizer/danelle-berg/",
+    "score": 0.71,
+    "performance": 0.47,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/organizer/frida-beyerl/",
+    "score": 0.71,
+    "performance": 0.48,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/organizer/madeline-cohen/",
+    "score": 0.7,
+    "performance": 0.43,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/organizer/malorie-weiss/",
+    "score": 0.7,
+    "performance": 0.51,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.85
+  },
+  {
+    "path": "/organizer/meghan-nichols/",
+    "score": 0.7,
+    "performance": 0.43,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/organizer/nursing-department/",
+    "score": 0.68,
+    "performance": 0.37,
+    "accessibility": 0.89,
+    "best-practices": 0.54,
+    "seo": 0.92
+  },
+  {
+    "path": "/otero-style-guide-2/",
+    "score": 0.73,
+    "performance": 0.47,
+    "accessibility": 0.75,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/pay-for-college/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/pay-for-college/empowered/",
+    "score": 0.8,
+    "performance": 0.6,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/pay-for-college/financial-aid/",
+    "score": 0.77,
+    "performance": 0.54,
+    "accessibility": 0.83,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/pay-for-college/financial-aid/colorado-application-for-state-financial-aid/",
+    "score": 0.79,
+    "performance": 0.55,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/pay-for-college/fostered-etv/",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/pay-for-college/loans/",
+    "score": 0.79,
+    "performance": 0.57,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/pay-for-college/pay-your-bill-refunds/",
+    "score": 0.75,
+    "performance": 0.5,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/pay-for-college/scholarships-grants/",
+    "score": 0.78,
+    "performance": 0.53,
+    "accessibility": 0.87,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/pay-for-college/student-employment/",
+    "score": 0.78,
+    "performance": 0.67,
+    "accessibility": 0.84,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/pay-for-college/tuition-fees/",
+    "score": 0.75,
+    "performance": 0.48,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/resources/",
+    "score": 0.76,
+    "performance": 0.45,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/accessibilityservices/faculty-rights-responsibilities/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/accessibilityservices/request-services/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.87,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/accessibilityservices/student-rights-responsibilities/",
+    "score": 0.78,
+    "performance": 0.49,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/advising/",
+    "score": 0.78,
+    "performance": 0.5,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/it-services/",
+    "score": 0.78,
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/mental-health-services/",
+    "score": 0.81,
+    "performance": 0.7,
+    "accessibility": 0.81,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/student-services-center/",
+    "score": 0.8,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/student-support-services-trio/",
+    "score": 0.78,
+    "performance": 0.54,
+    "accessibility": 0.85,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/test-help-guide-page/",
+    "score": 0.79,
+    "performance": 0.54,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/test-help-guide-page/test-corq-page/",
+    "score": 0.75,
+    "performance": 0.44,
+    "accessibility": 0.86,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/transcript-request/",
+    "score": 0.77,
+    "performance": 0.47,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/resources/tutoring/",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 1
+  },
+  {
+    "path": "/series/2nd-annual-pancake-week/",
+    "score": 0.71,
+    "performance": 0.39,
+    "accessibility": 0.8,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/series/city-of-la-junta-rtap-workshop/",
+    "score": 0.72,
+    "performance": 0.43,
+    "accessibility": 0.8,
+    "best-practices": 0.71,
+    "seo": 0.92
+  },
+  {
+    "path": "/series/golden-egg-hunt/",
+    "score": 0.71,
+    "performance": 0.39,
+    "accessibility": 0.8,
+    "best-practices": 0.71,
+    "seo": 0.92
+  }
+]
