@@ -1,0 +1,18 @@
+{
+  "label-content-name-mismatch": 443,
+  "listitem": 209,
+  "tabindex": 200,
+  "list": 199,
+  "color-contrast": 80,
+  "target-size": 57,
+  "heading-order": 55,
+  "aria-allowed-role": 43,
+  "aria-required-children": 25,
+  "aria-allowed-attr": 23,
+  "table-fake-caption": 19,
+  "link-name": 8,
+  "frame-title": 4,
+  "td-has-header": 2,
+  "aria-command-name": 2,
+  "button-name": 1
+}
