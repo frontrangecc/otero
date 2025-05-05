@@ -1,0 +1,986 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-BUTTON",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,FORM,0,DIV,2,BUTTON",
+            "selector": "div#ekits-search-df8c1ef > form > div.input-group > button.button-search",
+            "boundingRect": {
+              "top": 534,
+              "bottom": 575,
+              "left": 1155,
+              "right": 1205,
+              "width": 50,
+              "height": 40
+            },
+            "snippet": "<button type=\"submit\" class=\"button-search\">",
+            "nodeLabel": "div#ekits-search-df8c1ef > form > div.input-group > button.button-search",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-P",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,1,DIV,0,P",
+            "selector": "div.elementor-post__card > div.elementor-post__text > div.elementor-post__excerpt > p",
+            "boundingRect": {
+              "top": 642,
+              "bottom": 768,
+              "left": 139,
+              "right": 474,
+              "width": 335,
+              "height": 126
+            },
+            "snippet": "<p>",
+            "nodeLabel": "La Junta, CO – The Otero College Foundation is thrilled to announce its partner…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 513,
+                    "bottom": 1122,
+                    "left": 109,
+                    "right": 504,
+                    "width": 395,
+                    "height": 609
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Otero County and Otero College Join Forces to Expand Educational Opportunities …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,1,DIV,0,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-date",
+            "boundingRect": {
+              "top": 1091,
+              "bottom": 1105,
+              "left": 139,
+              "right": 215,
+              "width": 76,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-date\">",
+            "nodeLabel": "April 30, 2025 ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 513,
+                    "bottom": 1122,
+                    "left": 109,
+                    "right": 504,
+                    "width": 395,
+                    "height": 609
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Otero County and Otero College Join Forces to Expand Educational Opportunities …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,1,DIV,1,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-avatar",
+            "boundingRect": {
+              "top": 1091,
+              "bottom": 1105,
+              "left": 215,
+              "right": 309,
+              "width": 94,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-avatar\">",
+            "nodeLabel": " No Comments",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 513,
+                    "bottom": 1122,
+                    "left": 109,
+                    "right": 504,
+                    "width": 395,
+                    "height": 609
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Otero County and Otero College Join Forces to Expand Educational Opportunities …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-P",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,1,DIV,0,P",
+            "selector": "div.elementor-post__card > div.elementor-post__text > div.elementor-post__excerpt > p",
+            "boundingRect": {
+              "top": 902,
+              "bottom": 1007,
+              "left": 551,
+              "right": 886,
+              "width": 335,
+              "height": 105
+            },
+            "snippet": "<p>",
+            "nodeLabel": "La Junta, CO – Otero College is proud to announce the outstanding student winne…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 513,
+                    "bottom": 1122,
+                    "left": 521,
+                    "right": 916,
+                    "width": 395,
+                    "height": 609
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Otero College Announces Top Winners of the 69th Annual Otero Arts Festival\n\nLa …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,2,DIV,0,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-date",
+            "boundingRect": {
+              "top": 1091,
+              "bottom": 1105,
+              "left": 551,
+              "right": 627,
+              "width": 76,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-date\">",
+            "nodeLabel": "April 14, 2025 ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 513,
+                    "bottom": 1122,
+                    "left": 521,
+                    "right": 916,
+                    "width": 395,
+                    "height": 609
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Otero College Announces Top Winners of the 69th Annual Otero Arts Festival\n\nLa …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,2,DIV,1,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-avatar",
+            "boundingRect": {
+              "top": 1091,
+              "bottom": 1105,
+              "left": 627,
+              "right": 721,
+              "width": 94,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-avatar\">",
+            "nodeLabel": " No Comments",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 513,
+                    "bottom": 1122,
+                    "left": 521,
+                    "right": 916,
+                    "width": 395,
+                    "height": 609
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Otero College Announces Top Winners of the 69th Annual Otero Arts Festival\n\nLa …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-P",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,ARTICLE,0,DIV,1,DIV,1,DIV,0,P",
+            "selector": "div.elementor-post__card > div.elementor-post__text > div.elementor-post__excerpt > p",
+            "boundingRect": {
+              "top": 1503,
+              "bottom": 1608,
+              "left": 139,
+              "right": 474,
+              "width": 335,
+              "height": 105
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Here are all of the exciting events brought to you by Otero College this month!…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 1157,
+                    "bottom": 1744,
+                    "left": 109,
+                    "right": 504,
+                    "width": 395,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Upcoming Events: April\n\nHere are all of the exciting events brought to you by O…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,ARTICLE,0,DIV,2,DIV,0,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-date",
+            "boundingRect": {
+              "top": 1714,
+              "bottom": 1728,
+              "left": 139,
+              "right": 208,
+              "width": 69,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-date\">",
+            "nodeLabel": "April 4, 2025 ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 1157,
+                    "bottom": 1744,
+                    "left": 109,
+                    "right": 504,
+                    "width": 395,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Upcoming Events: April\n\nHere are all of the exciting events brought to you by O…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,ARTICLE,0,DIV,2,DIV,1,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-avatar",
+            "boundingRect": {
+              "top": 1714,
+              "bottom": 1728,
+              "left": 208,
+              "right": 303,
+              "width": 94,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-avatar\">",
+            "nodeLabel": " No Comments",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 1157,
+                    "bottom": 1744,
+                    "left": 109,
+                    "right": 504,
+                    "width": 395,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "Upcoming Events: April\n\nHere are all of the exciting events brought to you by O…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-P",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,ARTICLE,0,DIV,1,DIV,1,DIV,0,P",
+            "selector": "div.elementor-post__card > div.elementor-post__text > div.elementor-post__excerpt > p",
+            "boundingRect": {
+              "top": 1524,
+              "bottom": 1629,
+              "left": 551,
+              "right": 886,
+              "width": 335,
+              "height": 105
+            },
+            "snippet": "<p>",
+            "nodeLabel": "La Junta, CO – The highly anticipated 69th Annual Otero Arts Festival is offici…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 1157,
+                    "bottom": 1744,
+                    "left": 521,
+                    "right": 916,
+                    "width": 395,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "69th Annual Otero Arts Festival Underway\n\nLa Junta, CO – The highly anticipated…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,ARTICLE,0,DIV,2,DIV,0,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-date",
+            "boundingRect": {
+              "top": 1714,
+              "bottom": 1728,
+              "left": 551,
+              "right": 636,
+              "width": 86,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-date\">",
+            "nodeLabel": "March 31, 2025 ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 1157,
+                    "bottom": 1744,
+                    "left": 521,
+                    "right": 916,
+                    "width": 395,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "69th Annual Otero Arts Festival Underway\n\nLa Junta, CO – The highly anticipated…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-SPAN",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,ARTICLE,0,DIV,2,DIV,1,SPAN",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__meta-data > span.elementor-post-avatar",
+            "boundingRect": {
+              "top": 1714,
+              "bottom": 1728,
+              "left": 636,
+              "right": 731,
+              "width": 94,
+              "height": 14
+            },
+            "snippet": "<span class=\"elementor-post-avatar\">",
+            "nodeLabel": " No Comments",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,ARTICLE,0,DIV",
+                  "selector": "div.elementor-widget-container > div.elementor-posts-container > article.elementor-post > div.elementor-post__card",
+                  "boundingRect": {
+                    "top": 1157,
+                    "bottom": 1744,
+                    "left": 521,
+                    "right": 916,
+                    "width": 395,
+                    "height": 588
+                  },
+                  "snippet": "<div class=\"elementor-post__card\">",
+                  "nodeLabel": "69th Annual Otero Arts Festival Underway\n\nLa Junta, CO – The highly anticipated…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 12
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-H3",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,H3",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__text > h3.elementor-post__title",
+            "boundingRect": {
+              "top": 533,
+              "bottom": 617,
+              "left": 139,
+              "right": 474,
+              "width": 335,
+              "height": 84
+            },
+            "snippet": "<h3 class=\"elementor-post__title\">",
+            "nodeLabel": "Otero County and Otero College Join Forces to Expand Educational Opportunities …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-25-UL",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL",
+            "selector": "div.row > div.navigation > nav.width-navigation > ul.nav",
+            "boundingRect": {
+              "top": 283,
+              "bottom": 353,
+              "left": 105,
+              "right": 1245,
+              "width": 1140,
+              "height": 70
+            },
+            "snippet": "<ul class=\"nav navbar-nav menu-main-menu thim-ekits-menu__nav\">",
+            "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: div"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-26-DIV",
+                  "path": "1,HTML,1,BODY,28,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL,0,DIV",
+                  "selector": "div.navigation > nav.width-navigation > ul.nav > div#mega-menu-wrap-primary",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 353,
+                    "left": 105,
+                    "right": 1245,
+                    "width": 1140,
+                    "height": 70
+                  },
+                  "snippet": "<div id=\"mega-menu-wrap-primary\" class=\"mega-menu-wrap\">",
+                  "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-27-LI",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,LI",
+            "selector": "div.navigation > div.tm-table > nav.header-top-menu > li#text-1210000",
+            "boundingRect": {
+              "top": 211,
+              "bottom": 256,
+              "left": 997,
+              "right": 1245,
+              "width": 248,
+              "height": 45
+            },
+            "snippet": "<li id=\"text-1210000\" class=\"widget widget_text\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more about the `tabindex` attribute](https://dequeuniversity.com/rules/axe/4.10/tabindex).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-28-A",
+            "path": "1,HTML,1,BODY,1,A",
+            "selector": "body#thim-body > a#pojo-a11y-skip-content",
+            "boundingRect": {
+              "top": -14000,
+              "bottom": -13978,
+              "left": 0,
+              "right": 93,
+              "width": 93,
+              "height": 22
+            },
+            "snippet": "<a id=\"pojo-a11y-skip-content\" class=\"pojo-skip-link pojo-skip-content\" tabindex=\"1\" accesskey=\"s\" href=\"#main-content\" role=\"link\">",
+            "nodeLabel": "Skip to content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-A",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,A",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__text > a.elementor-post__read-more",
+            "boundingRect": {
+              "top": 794,
+              "bottom": 817,
+              "left": 139,
+              "right": 214,
+              "width": 75,
+              "height": 22
+            },
+            "snippet": "<a class=\"elementor-post__read-more\" href=\"https://otero.edu/otero-county-and-otero-college-join-forces-to-expand-edu…\" aria-label=\"Read more about Otero County and Otero College Join Forces to Expand Educa…\" tabindex=\"-1\" role=\"link\">",
+            "nodeLabel": "READ MORE »",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,ARTICLE,0,DIV,1,DIV,2,A",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__text > a.elementor-post__read-more",
+            "boundingRect": {
+              "top": 1033,
+              "bottom": 1055,
+              "left": 551,
+              "right": 626,
+              "width": 75,
+              "height": 22
+            },
+            "snippet": "<a class=\"elementor-post__read-more\" href=\"https://otero.edu/otero-college-announces-top-winners-of-the-69th-annual-o…\" aria-label=\"Read more about Otero College Announces Top Winners of the 69th Annual Ote…\" tabindex=\"-1\" role=\"link\">",
+            "nodeLabel": "READ MORE »",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,ARTICLE,0,DIV,1,DIV,2,A",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__text > a.elementor-post__read-more",
+            "boundingRect": {
+              "top": 1634,
+              "bottom": 1657,
+              "left": 139,
+              "right": 214,
+              "width": 75,
+              "height": 22
+            },
+            "snippet": "<a class=\"elementor-post__read-more\" href=\"https://otero.edu/upcoming-events-april/\" aria-label=\"Read more about Upcoming Events: April\" tabindex=\"-1\" role=\"link\">",
+            "nodeLabel": "READ MORE »",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,ARTICLE,0,DIV,1,DIV,2,A",
+            "selector": "article.elementor-post > div.elementor-post__card > div.elementor-post__text > a.elementor-post__read-more",
+            "boundingRect": {
+              "top": 1655,
+              "bottom": 1678,
+              "left": 551,
+              "right": 626,
+              "width": 75,
+              "height": 22
+            },
+            "snippet": "<a class=\"elementor-post__read-more\" href=\"https://otero.edu/69th-annual-otero-arts-festival-underway/\" aria-label=\"Read more about 69th Annual Otero Arts Festival Underway\" tabindex=\"-1\" role=\"link\">",
+            "nodeLabel": "READ MORE »",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 2235,
+              "bottom": 2265,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 30
+            },
+            "snippet": "<a href=\"tel:7193846800\" aria-label=\"Contact phone number\" role=\"link\">",
+            "nodeLabel": "(719) 384-6800",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,28,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 2295,
+              "bottom": 2325,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 30
+            },
+            "snippet": "<a href=\"mailto:otero-information@otero.edu\" target=\"_blank\" aria-label=\"General email address for inquiries\" role=\"link\">",
+            "nodeLabel": "otero-information@otero.edu",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-UL",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL",
+            "selector": "div.row > div.navigation > nav.width-navigation > ul.nav",
+            "boundingRect": {
+              "top": 283,
+              "bottom": 353,
+              "left": 105,
+              "right": 1245,
+              "width": 1140,
+              "height": 70
+            },
+            "snippet": "<ul class=\"nav navbar-nav menu-main-menu thim-ekits-menu__nav\">",
+            "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: div"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-DIV",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL,0,DIV",
+                  "selector": "div.navigation > nav.width-navigation > ul.nav > div#mega-menu-wrap-primary",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 353,
+                    "left": 105,
+                    "right": 1245,
+                    "width": 1140,
+                    "height": 70
+                  },
+                  "snippet": "<div id=\"mega-menu-wrap-primary\" class=\"mega-menu-wrap\">",
+                  "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-LI",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,LI",
+            "selector": "div.navigation > div.tm-table > nav.header-top-menu > li#text-1210000",
+            "boundingRect": {
+              "top": 211,
+              "bottom": 256,
+              "left": 997,
+              "right": 1245,
+              "width": 248,
+              "height": 45
+            },
+            "snippet": "<li id=\"text-1210000\" class=\"widget widget_text\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more about the `tabindex` attribute](https://dequeuniversity.com/rules/axe/4.10/tabindex).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,1,A",
+            "selector": "body#thim-body > a#pojo-a11y-skip-content",
+            "boundingRect": {
+              "top": -14000,
+              "bottom": -13978,
+              "left": 0,
+              "right": 93,
+              "width": 93,
+              "height": 22
+            },
+            "snippet": "<a id=\"pojo-a11y-skip-content\" class=\"pojo-skip-link pojo-skip-content\" tabindex=\"1\" accesskey=\"s\" href=\"#main-content\" role=\"link\">",
+            "nodeLabel": "Skip to content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 8520,
+              "bottom": 8550,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 30
+            },
+            "snippet": "<a href=\"tel:7193846800\" aria-label=\"Contact phone number\" role=\"link\">",
+            "nodeLabel": "(719) 384-6800",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 8580,
+              "bottom": 8610,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 30
+            },
+            "snippet": "<a href=\"mailto:otero-information@otero.edu\" target=\"_blank\" aria-label=\"General email address for inquiries\" role=\"link\">",
+            "nodeLabel": "otero-information@otero.edu",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "td-has-header",
+    "title": "`<td>` elements in a large `<table>` do not have table headers.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.10/td-has-header).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-TABLE",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE",
+            "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > table",
+            "boundingRect": {
+              "top": 750,
+              "bottom": 5641,
+              "left": 376,
+              "right": 999,
+              "width": 623,
+              "height": 4891
+            },
+            "snippet": "<table style=\"font-weight: 400;\" data-tablestyle=\"MsoTable15Plain5\" data-tablelook=\"1184\" aria-rowcount=\"126\">",
+            "nodeLabel": "Name \n\n\t\n\nDepartment \n\n\t\n\nTitle \n\n\n\n\nAcosta, Alex \n\n\t\n\nAthletics \n\n\t\n\nHead Wome…",
+            "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-TD",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 750,
+                    "bottom": 782,
+                    "left": 377,
+                    "right": 515,
+                    "width": 139,
+                    "height": 31
+                  },
+                  "snippet": "<td data-celllook=\"272\">",
+                  "nodeLabel": "Name "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-TD",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,1,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 750,
+                    "bottom": 782,
+                    "left": 515,
+                    "right": 711,
+                    "width": 196,
+                    "height": 31
+                  },
+                  "snippet": "<td data-celllook=\"256\">",
+                  "nodeLabel": "Department "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-TD",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,0,TBODY,0,TR,2,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 750,
+                    "bottom": 782,
+                    "left": 711,
+                    "right": 998,
+                    "width": 287,
+                    "height": 31
+                  },
+                  "snippet": "<td data-celllook=\"256\">",
+                  "nodeLabel": "Title "
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.tables",
+          "experimental",
+          "wcag2a",
+          "wcag131",
+          "section508",
+          "section508.22.g",
+          "TTv5",
+          "TT14.b",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

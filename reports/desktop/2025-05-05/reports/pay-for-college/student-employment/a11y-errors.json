@@ -1,0 +1,475 @@
+[
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn how to make command elements more accessible](https://dequeuniversity.com/rules/axe/4.10/aria-command-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,5,DIV,0,DIV,1,SECTION,0,H2,0,A",
+            "selector": "div.elementor-widget-container > section.full-width-content > h2 > a#studenthourlyemployment",
+            "boundingRect": {
+              "top": 1523,
+              "bottom": 1560,
+              "left": 390,
+              "right": 390,
+              "width": 0,
+              "height": 37
+            },
+            "snippet": "<a id=\"studenthourlyemployment\" role=\"link\">",
+            "nodeLabel": "div.elementor-widget-container > section.full-width-content > h2 > a#studenthourlyemployment",
+            "explanation": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-SPAN",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,13,DIV,0,DIV,0,DIV,0,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-title",
+            "boundingRect": {
+              "top": 2603,
+              "bottom": 2625,
+              "left": 410,
+              "right": 919,
+              "width": 509,
+              "height": 22
+            },
+            "snippet": "<span class=\"elementor-alert-title\">",
+            "nodeLabel": "Note:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.93 (foreground color: #5b5b5b, background color: #c5c5c5, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,13,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 2588,
+                    "bottom": 2710,
+                    "left": 390,
+                    "right": 934,
+                    "width": 544,
+                    "height": 123
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "Note:\nNo student may begin work without getting the proper authorization. Hours…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-SPAN",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,13,DIV,0,DIV,0,DIV,1,SPAN",
+            "selector": "div.elementor-element > div.elementor-widget-container > div.elementor-alert > span.elementor-alert-description",
+            "boundingRect": {
+              "top": 2629,
+              "bottom": 2691,
+              "left": 410,
+              "right": 901,
+              "width": 491,
+              "height": 62
+            },
+            "snippet": "<span class=\"elementor-alert-description\">",
+            "nodeLabel": "No student may begin work without getting the proper authorization. Hours alloc…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.93 (foreground color: #5b5b5b, background color: #c5c5c5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,13,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > div.elementor-alert",
+                  "boundingRect": {
+                    "top": 2588,
+                    "bottom": 2710,
+                    "left": 390,
+                    "right": 934,
+                    "width": 544,
+                    "height": 123
+                  },
+                  "snippet": "<div class=\"elementor-alert\" role=\"alert\">",
+                  "nodeLabel": "Note:\nNo student may begin work without getting the proper authorization. Hours…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-UL",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL",
+            "selector": "div.row > div.navigation > nav.width-navigation > ul.nav",
+            "boundingRect": {
+              "top": 283,
+              "bottom": 353,
+              "left": 105,
+              "right": 1245,
+              "width": 1140,
+              "height": 70
+            },
+            "snippet": "<ul class=\"nav navbar-nav menu-main-menu thim-ekits-menu__nav\">",
+            "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: div"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-DIV",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL,0,DIV",
+                  "selector": "div.navigation > nav.width-navigation > ul.nav > div#mega-menu-wrap-primary",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 353,
+                    "left": 105,
+                    "right": 1245,
+                    "width": 1140,
+                    "height": 70
+                  },
+                  "snippet": "<div id=\"mega-menu-wrap-primary\" class=\"mega-menu-wrap\">",
+                  "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-LI",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,LI",
+            "selector": "div.navigation > div.tm-table > nav.header-top-menu > li#text-1210000",
+            "boundingRect": {
+              "top": 211,
+              "bottom": 256,
+              "left": 997,
+              "right": 1245,
+              "width": 248,
+              "height": 45
+            },
+            "snippet": "<li id=\"text-1210000\" class=\"widget widget_text\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more about the `tabindex` attribute](https://dequeuniversity.com/rules/axe/4.10/tabindex).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,1,A",
+            "selector": "body#thim-body > a#pojo-a11y-skip-content",
+            "boundingRect": {
+              "top": -14000,
+              "bottom": -13978,
+              "left": 0,
+              "right": 93,
+              "width": 93,
+              "height": 22
+            },
+            "snippet": "<a id=\"pojo-a11y-skip-content\" class=\"pojo-skip-link pojo-skip-content\" tabindex=\"1\" accesskey=\"s\" href=\"#main-content\" role=\"link\">",
+            "nodeLabel": "Skip to content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,DIV,0,H3,0,A",
+            "selector": "div.elementor-icon-box-wrapper > div.elementor-icon-box-content > h3.elementor-icon-box-title > a",
+            "boundingRect": {
+              "top": 725,
+              "bottom": 781,
+              "left": 563,
+              "right": 856,
+              "width": 293,
+              "height": 56
+            },
+            "snippet": "<a href=\"https://app.joinhandshake.com/student_account_registrations/new#/email\" target=\"_blank\" aria-label=\"Find a Work Study position\" role=\"link\">",
+            "nodeLabel": "Click Here to Find a Work Study Position",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,12,DIV,0,DIV,0,DIV,1,DIV,0,H3,0,A",
+            "selector": "div.elementor-icon-box-wrapper > div.elementor-icon-box-content > h3.elementor-icon-box-title > a",
+            "boundingRect": {
+              "top": 2426,
+              "bottom": 2506,
+              "left": 563,
+              "right": 876,
+              "width": 313,
+              "height": 80
+            },
+            "snippet": "<a href=\"https://forms.gle/Mzo1JZK7AcjDRbvW9\" target=\"_blank\" aria-label=\"Find a Work Study position\" role=\"link\">",
+            "nodeLabel": "Click Here for International Student Work Study Positions",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 3994,
+              "bottom": 4024,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 30
+            },
+            "snippet": "<a href=\"tel:7193846800\" aria-label=\"Contact phone number\" role=\"link\">",
+            "nodeLabel": "(719) 384-6800",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,1,FOOTER,0,DIV,0,DIV,0,DIV,1,ASIDE,0,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 4054,
+              "bottom": 4084,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 30
+            },
+            "snippet": "<a href=\"mailto:otero-information@otero.edu\" target=\"_blank\" aria-label=\"General email address for inquiries\" role=\"link\">",
+            "nodeLabel": "otero-information@otero.edu",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

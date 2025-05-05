@@ -1,1 +1,10 @@
-{}
+{
+  "label-content-name-mismatch": 44,
+  "tabindex": 22,
+  "list": 20,
+  "listitem": 20,
+  "target-size": 20,
+  "aria-allowed-role": 9,
+  "aria-allowed-attr": 6,
+  "color-contrast": 5
+}

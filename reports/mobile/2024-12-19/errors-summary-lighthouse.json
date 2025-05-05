@@ -1,1 +1,17 @@
-{}
+{
+  "label-content-name-mismatch": 317,
+  "tabindex": 144,
+  "list": 142,
+  "listitem": 142,
+  "color-contrast": 76,
+  "target-size": 74,
+  "heading-order": 44,
+  "table-fake-caption": 23,
+  "aria-allowed-attr": 22,
+  "aria-allowed-role": 17,
+  "link-name": 17,
+  "aria-required-children": 16,
+  "frame-title": 3,
+  "button-name": 1,
+  "td-has-header": 1
+}

@@ -1,0 +1,995 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-SPAN",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A,1,SPAN",
+            "selector": "ul.elementor-icon-list-items > li.elementor-icon-list-item > a > span.elementor-icon-list-text",
+            "boundingRect": {
+              "top": 672,
+              "bottom": 694,
+              "left": 708,
+              "right": 808,
+              "width": 101,
+              "height": 22
+            },
+            "snippet": "<span class=\"elementor-icon-list-text\">",
+            "nodeLabel": "(719) 384-6800",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.99 (foreground color: #0046c8, background color: #0c234b, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-1-SECTION",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION",
+                  "selector": "div.content-pusher > div#main-content > div.elementor > section.elementor-section",
+                  "boundingRect": {
+                    "top": 582,
+                    "bottom": 1000,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 418
+                  },
+                  "snippet": "<section class=\"elementor-section elementor-top-section elementor-element elementor-elemen…\" data-id=\"144418e\" data-element_type=\"section\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}\" style=\"width: 1350px; left: 0px;\">",
+                  "nodeLabel": "  \n(719) 384-6800\nCampus Map\notero-information@otero.edu\nOtero College, 1802 Co…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-SPAN",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,1,LI,0,A,1,SPAN",
+            "selector": "ul.elementor-icon-list-items > li.elementor-icon-list-item > a > span.elementor-icon-list-text",
+            "boundingRect": {
+              "top": 694,
+              "bottom": 716,
+              "left": 708,
+              "right": 795,
+              "width": 88,
+              "height": 22
+            },
+            "snippet": "<span class=\"elementor-icon-list-text\">",
+            "nodeLabel": "Campus Map",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.99 (foreground color: #0046c8, background color: #0c234b, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-1-SECTION",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION",
+                  "selector": "div.content-pusher > div#main-content > div.elementor > section.elementor-section",
+                  "boundingRect": {
+                    "top": 582,
+                    "bottom": 1000,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 418
+                  },
+                  "snippet": "<section class=\"elementor-section elementor-top-section elementor-element elementor-elemen…\" data-id=\"144418e\" data-element_type=\"section\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}\" style=\"width: 1350px; left: 0px;\">",
+                  "nodeLabel": "  \n(719) 384-6800\nCampus Map\notero-information@otero.edu\nOtero College, 1802 Co…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-SPAN",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A,1,SPAN",
+            "selector": "ul.elementor-icon-list-items > li.elementor-icon-list-item > a > span.elementor-icon-list-text",
+            "boundingRect": {
+              "top": 716,
+              "bottom": 739,
+              "left": 708,
+              "right": 893,
+              "width": 186,
+              "height": 22
+            },
+            "snippet": "<span class=\"elementor-icon-list-text\">",
+            "nodeLabel": "otero-information@otero.edu",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.99 (foreground color: #0046c8, background color: #0c234b, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-1-SECTION",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION",
+                  "selector": "div.content-pusher > div#main-content > div.elementor > section.elementor-section",
+                  "boundingRect": {
+                    "top": 582,
+                    "bottom": 1000,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 418
+                  },
+                  "snippet": "<section class=\"elementor-section elementor-top-section elementor-element elementor-elemen…\" data-id=\"144418e\" data-element_type=\"section\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}\" style=\"width: 1350px; left: 0px;\">",
+                  "nodeLabel": "  \n(719) 384-6800\nCampus Map\notero-information@otero.edu\nOtero College, 1802 Co…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-DIV",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV",
+            "selector": "div.elementor-column > div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container",
+            "boundingRect": {
+              "top": 764,
+              "bottom": 809,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 45
+            },
+            "snippet": "<div class=\"elementor-widget-container\">",
+            "nodeLabel": "Otero College, 1802 Colorado Ave., La Junta, CO 81050\n© 2024 Otero College",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #666666, background color: #0c234b, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-1-SECTION",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION",
+                  "selector": "div.content-pusher > div#main-content > div.elementor > section.elementor-section",
+                  "boundingRect": {
+                    "top": 582,
+                    "bottom": 1000,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 418
+                  },
+                  "snippet": "<section class=\"elementor-section elementor-top-section elementor-element elementor-elemen…\" data-id=\"144418e\" data-element_type=\"section\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}\" style=\"width: 1350px; left: 0px;\">",
+                  "nodeLabel": "  \n(719) 384-6800\nCampus Map\notero-information@otero.edu\nOtero College, 1802 Co…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-UL",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL",
+            "selector": "div.row > div.navigation > nav.width-navigation > ul.nav",
+            "boundingRect": {
+              "top": 283,
+              "bottom": 353,
+              "left": 105,
+              "right": 1245,
+              "width": 1140,
+              "height": 70
+            },
+            "snippet": "<ul class=\"nav navbar-nav menu-main-menu thim-ekits-menu__nav\">",
+            "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: div"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL,0,DIV",
+                  "selector": "div.navigation > nav.width-navigation > ul.nav > div#mega-menu-wrap-primary",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 353,
+                    "left": 105,
+                    "right": 1245,
+                    "width": 1140,
+                    "height": 70
+                  },
+                  "snippet": "<div id=\"mega-menu-wrap-primary\" class=\"mega-menu-wrap\">",
+                  "nodeLabel": "About\nAcademics\nBecome a Student\nPay for College\nResources\nCampus & Community\nA…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-LI",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,LI",
+            "selector": "div.navigation > div.tm-table > nav.header-top-menu > li#text-1210000",
+            "boundingRect": {
+              "top": 211,
+              "bottom": 256,
+              "left": 997,
+              "right": 1245,
+              "width": 248,
+              "height": 45
+            },
+            "snippet": "<li id=\"text-1210000\" class=\"widget widget_text\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more about the `tabindex` attribute](https://dequeuniversity.com/rules/axe/4.10/tabindex).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,1,A",
+            "selector": "body#thim-body > a#pojo-a11y-skip-content",
+            "boundingRect": {
+              "top": -14000,
+              "bottom": -13978,
+              "left": 0,
+              "right": 93,
+              "width": 93,
+              "height": 22
+            },
+            "snippet": "<a id=\"pojo-a11y-skip-content\" class=\"pojo-skip-link pojo-skip-content\" tabindex=\"1\" accesskey=\"s\" href=\"#main-content\" role=\"link\">",
+            "nodeLabel": "Skip to content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,0,UL,0,LI,0,UL,0,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 355,
+              "bottom": 371,
+              "left": 200,
+              "right": 382,
+              "width": 182,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://otero.edu/become-a-student/\" role=\"link\">",
+            "nodeLabel": "Apply & Enrollment Checklist",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (182.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL,0,DIV,1,UL,1,LI,0,A",
+                  "selector": "div#mega-menu-wrap-primary > ul#mega-menu-primary > li#mega-menu-item-15510 > a.mega-menu-link",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 353,
+                    "left": 279,
+                    "right": 401,
+                    "width": 122,
+                    "height": 70
+                  },
+                  "snippet": "<a class=\"mega-menu-link\" href=\"https://otero.edu/academics-programs/\" aria-expanded=\"false\" tabindex=\"0\" role=\"link\">",
+                  "nodeLabel": "Academics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul > li > a",
+            "boundingRect": {
+              "top": 351,
+              "bottom": 367,
+              "left": 530,
+              "right": 718,
+              "width": 188,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://otero.edu/about/equity-diversity-inclusion-council/\" role=\"link\">",
+            "nodeLabel": "Equity, Diversity and Inclusion",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (187.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL,0,DIV,1,UL,3,LI,0,A",
+                  "selector": "div#mega-menu-wrap-primary > ul#mega-menu-primary > li#mega-menu-item-13999 > a.mega-menu-link",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 353,
+                    "left": 585,
+                    "right": 736,
+                    "width": 152,
+                    "height": 70
+                  },
+                  "snippet": "<a class=\"mega-menu-link\" href=\"https://otero.edu/pay-for-college/\" aria-expanded=\"false\" tabindex=\"0\" role=\"link\">",
+                  "nodeLabel": "Pay for College"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul > li > a",
+            "boundingRect": {
+              "top": 351,
+              "bottom": 367,
+              "left": 920,
+              "right": 1110,
+              "width": 190,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://otero.edu/campus-community/campus-safety/\" role=\"link\">",
+            "nodeLabel": "Report An Incident or Concern",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (190.2px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,0,HEADER,3,DIV,0,DIV,0,DIV,1,NAV,0,UL,0,DIV,1,UL,5,LI,0,A",
+                  "selector": "div#mega-menu-wrap-primary > ul#mega-menu-primary > li#mega-menu-item-15511 > a.mega-menu-link",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 353,
+                    "left": 864,
+                    "right": 1067,
+                    "width": 202,
+                    "height": 70
+                  },
+                  "snippet": "<a class=\"mega-menu-link\" href=\"https://otero.edu/campus-community/\" aria-expanded=\"false\" tabindex=\"0\" role=\"link\">",
+                  "nodeLabel": "Campus & Community"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,1,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul > li > a",
+                  "boundingRect": {
+                    "top": 373,
+                    "bottom": 389,
+                    "left": 920,
+                    "right": 1120,
+                    "width": 200,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"https://form.jotform.com/221644824768061\" role=\"link\">",
+                  "nodeLabel": "Student Complaint or Grievance"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,1,LI,0,A",
+            "selector": "div.elementor-widget-container > ul > li > a",
+            "boundingRect": {
+              "top": 373,
+              "bottom": 389,
+              "left": 920,
+              "right": 1120,
+              "width": 200,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://form.jotform.com/221644824768061\" role=\"link\">",
+            "nodeLabel": "Student Complaint or Grievance",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (200.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul > li > a",
+                  "boundingRect": {
+                    "top": 351,
+                    "bottom": 367,
+                    "left": 920,
+                    "right": 1110,
+                    "width": 190,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"https://otero.edu/campus-community/campus-safety/\" role=\"link\">",
+                  "nodeLabel": "Report An Incident or Concern"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.elementor-widget-container > ul > li > a",
+            "boundingRect": {
+              "top": 395,
+              "bottom": 411,
+              "left": 920,
+              "right": 1043,
+              "width": 123,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://otero.edu/about/policies-procedures/title-ix-sexual-misconduct\" role=\"link\">",
+            "nodeLabel": "Title IX Compliance",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (123.1px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-20-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,3,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul > li > a",
+                  "boundingRect": {
+                    "top": 418,
+                    "bottom": 434,
+                    "left": 920,
+                    "right": 1047,
+                    "width": 127,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"https://otero.edu/resources/transcript-request/\" role=\"link\">",
+                  "nodeLabel": "Transcripts Request"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,3,LI,0,A",
+            "selector": "div.elementor-widget-container > ul > li > a",
+            "boundingRect": {
+              "top": 418,
+              "bottom": 434,
+              "left": 920,
+              "right": 1047,
+              "width": 127,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://otero.edu/resources/transcript-request/\" role=\"link\">",
+            "nodeLabel": "Transcripts Request",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (126.8px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-19-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,2,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul > li > a",
+                  "boundingRect": {
+                    "top": 395,
+                    "bottom": 411,
+                    "left": 920,
+                    "right": 1043,
+                    "width": 123,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"https://otero.edu/about/policies-procedures/title-ix-sexual-misconduct\" role=\"link\">",
+                  "nodeLabel": "Title IX Compliance"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+            "selector": "div.elementor-widget-container > ul > li > a",
+            "boundingRect": {
+              "top": 440,
+              "bottom": 456,
+              "left": 920,
+              "right": 1010,
+              "width": 90,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://otero.edu/pay-for-college/tuition-fees/\" role=\"link\">",
+            "nodeLabel": "Tuition & Fees",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (89.9px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-22-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,5,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul > li > a",
+                  "boundingRect": {
+                    "top": 463,
+                    "bottom": 479,
+                    "left": 920,
+                    "right": 1004,
+                    "width": 84,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"https://otero.edu/become-a-student/visit-campus/\" role=\"link\">",
+                  "nodeLabel": "Visit Campus"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,5,LI,0,A",
+            "selector": "div.elementor-widget-container > ul > li > a",
+            "boundingRect": {
+              "top": 463,
+              "bottom": 479,
+              "left": 920,
+              "right": 1004,
+              "width": 84,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://otero.edu/become-a-student/visit-campus/\" role=\"link\">",
+            "nodeLabel": "Visit Campus",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (83.7px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul > li > a",
+                  "boundingRect": {
+                    "top": 440,
+                    "bottom": 456,
+                    "left": 920,
+                    "right": 1010,
+                    "width": 90,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"https://otero.edu/pay-for-college/tuition-fees/\" role=\"link\">",
+                  "nodeLabel": "Tuition & Fees"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 672,
+              "bottom": 694,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 22
+            },
+            "snippet": "<a href=\"tel:7193846800\" aria-label=\"Contact phone number\" role=\"link\">",
+            "nodeLabel": "(719) 384-6800",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (555px by 22.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-23-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,1,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+                  "boundingRect": {
+                    "top": 694,
+                    "bottom": 716,
+                    "left": 690,
+                    "right": 1245,
+                    "width": 555,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"https://map.concept3d.com/?id=2131#!ct/80136,79601,77515,77512,77510,76762…\" target=\"_blank\" aria-label=\"Campus map and directions\" role=\"link\">",
+                  "nodeLabel": "Campus Map"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,1,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 694,
+              "bottom": 716,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 22
+            },
+            "snippet": "<a href=\"https://map.concept3d.com/?id=2131#!ct/80136,79601,77515,77512,77510,76762…\" target=\"_blank\" aria-label=\"Campus map and directions\" role=\"link\">",
+            "nodeLabel": "Campus Map",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (555px by 22.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+                  "boundingRect": {
+                    "top": 672,
+                    "bottom": 694,
+                    "left": 690,
+                    "right": 1245,
+                    "width": 555,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"tel:7193846800\" aria-label=\"Contact phone number\" role=\"link\">",
+                  "nodeLabel": "(719) 384-6800"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+                  "boundingRect": {
+                    "top": 716,
+                    "bottom": 739,
+                    "left": 690,
+                    "right": 1245,
+                    "width": 555,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"mailto:otero-information@otero.edu\" target=\"_blank\" aria-label=\"General email address for inquiries\" role=\"link\">",
+                  "nodeLabel": "otero-information@otero.edu"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 716,
+              "bottom": 739,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 22
+            },
+            "snippet": "<a href=\"mailto:otero-information@otero.edu\" target=\"_blank\" aria-label=\"General email address for inquiries\" role=\"link\">",
+            "nodeLabel": "otero-information@otero.edu",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (555px by 22.4px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-23-A",
+                  "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,1,LI,0,A",
+                  "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+                  "boundingRect": {
+                    "top": 694,
+                    "bottom": 716,
+                    "left": 690,
+                    "right": 1245,
+                    "width": 555,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"https://map.concept3d.com/?id=2131#!ct/80136,79601,77515,77512,77510,76762…\" target=\"_blank\" aria-label=\"Campus map and directions\" role=\"link\">",
+                  "nodeLabel": "Campus Map"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 11
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 672,
+              "bottom": 694,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 22
+            },
+            "snippet": "<a href=\"tel:7193846800\" aria-label=\"Contact phone number\" role=\"link\">",
+            "nodeLabel": "(719) 384-6800",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,25,DIV,0,DIV,1,DIV,0,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.elementor-widget-container > ul.elementor-icon-list-items > li.elementor-icon-list-item > a",
+            "boundingRect": {
+              "top": 716,
+              "bottom": 739,
+              "left": 690,
+              "right": 1245,
+              "width": 555,
+              "height": 22
+            },
+            "snippet": "<a href=\"mailto:otero-information@otero.edu\" target=\"_blank\" aria-label=\"General email address for inquiries\" role=\"link\">",
+            "nodeLabel": "otero-information@otero.edu",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
